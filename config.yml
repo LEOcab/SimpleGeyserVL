@@ -1,0 +1,5 @@
+commands:
+- eco give %player% 20
+- xp give %player% 100
+player-message: "&aThank you! You have been awarded &etwenty dollars."
+broadcast-message: "&aThank &e%player%&a for &d/vote&aing for us on %service%!"
