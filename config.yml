@@ -1,5 +1,15 @@
+# What is the prefix of Geyser/Floodgate players?
+geyser-prefix: "*"
+# Commands to execute when the player votes
 commands:
 - eco give %player% 20
 - xp give %player% 100
+# Message to send to the player who voted after voting
 player-message: "&aThank you! You have been awarded &etwenty dollars."
+# Message to prodcast to all players after a player votes
 broadcast-message: "&aThank &e%player%&a for &d/vote&aing for us on %service%!"
+# Should we enable a /vote command which will show a message you want?
+vote-command: false
+# Pleae put a message in JSON format because we will use the "/tellraw" command
+# You can use https://minecraft.tools/en/json_text.php to generate a JSON format message
+vote-command-message: "{\"text\":\"The server owner hasn't added a /vote message yet, contact the owner to add one\",\"bold\":true,\"color\":\"red\"}"

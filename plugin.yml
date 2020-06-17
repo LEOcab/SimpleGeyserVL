@@ -1,8 +1,11 @@
 name: SimpleGeyserVL
 main: us.scandic.simpleGeyserVL.SimpleGeyserVL
-version: 0.1
+version: 0.2
 api-version: 1.14
 commands:
   testvote:
     description: Test the plugin
     usage: /testvote player
+  vote:
+    description: A Vote command players can use to show the list of sites
+    usage: /vote
